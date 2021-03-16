@@ -1,0 +1,15 @@
+
+MYSQL    -          COUCHBASE
+
+Database             Bucket
+Table                Type(virtual)
+Row                  Json Document
+3306(default port)   8093(default port of query) 
+
+REST API-REpresentational State Transfer) (Application Programming Interface)  
+
+http://localhost:8093/query/service
+
+ COUSEBASE QUERY STRUCTURE:
+//CREATE INDEX request ON `master_academy`(type);[primary]
+//SELECT *FROM master_academy WHERE type=`request`;[secondary]
